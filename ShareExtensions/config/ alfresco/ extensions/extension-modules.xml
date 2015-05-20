@@ -1,0 +1,20 @@
+ 
+<extension>
+  <modules>
+    <module>
+      <id>New Content Module</id>
+      <components>
+          <component>
+              <region-id>footer</region-id>
+              <source-id>global</source-id>
+              <scope>global</scope>
+              <sub-components>
+                <sub-component id="New_Content" index= "25" >
+                <url>/tutorials/new-content</url>
+               </sub-component>
+              </sub-components>
+          </component>
+       </components>
+     </module>
+    </modules>
+</extension>
